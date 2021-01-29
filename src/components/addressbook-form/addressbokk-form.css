@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header-container {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0px solid blue;
+    opacity: 1; 
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid blue;
+    margin-top: 36px;
+    margin-left: 148px;
+}
+
+.address {
+    color: #008CFF;
+    display: flex;
+    flex-direction: column;
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    /* font-weight: bold; */
+    padding-left: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    border: 0px solid blue;
+    opacity: 1
+}
+
+.book {
+    color: #42515F;
+}
+
+.address-container {
+    min-height: calc(100% - 80px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    border-radius: 4px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.form {
+    width: 800px;
+    border-radius: 4px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.addressForm-head {
+    border: 0px solid #ffffff;
+    border-radius: 4px;
+    background-color: #008CFF;
+    color: #ffffff;
+    text-align: center;
+    font: normal normal normal 26px/37px Roboto;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    height: 108px;
+    padding-top: 35px;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+
+input, textarea {
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+input {
+    height: 25px;
+}
+
+.text, .number {
+    font: normal normal normal 18px/24px Roboto;
+    TEXT-ALIGN: LEFT;
+}
+
+.space {
+    padding-top: 30px;
+}
+
+#state {
+    display: flex;
+    flex-direction: row;
+}
+
+.state, .city, .zip {
+    display: flex;
+    flex-direction: column;
+    padding-right: 190px;
+}
+
+error-output {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+.button-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    
+}
+
+.button {
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+    height: 30px;
+    width: 90px;
+}
+
+.button:hover {
+    background-color: #696868;
+    border: 1px solid black;
+}
